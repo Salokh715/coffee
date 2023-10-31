@@ -1,0 +1,147 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container{
+   max-width: 1220px;
+   margin: 0 auto;
+}
+header{
+background-color: bisque;
+padding: 20px;
+}
+header .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav ul li{
+   list-style: none;
+}
+nav ul{
+   gap: 25px;
+   display: flex;
+}
+nav ul li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.good-coffee {
+   background-color: bisque;
+   height: 100vh; 
+}
+.good-coffee .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.coffe-text{
+   margin-top: 47px;
+}
+.coffe-text h2{
+color: #000;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.coffe-text p{
+max-width: 464px;
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin: 40px;
+}
+
+.green-btn{
+   color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: all-small-caps;
+letter-spacing: 1px;
+padding: 16px 24px;
+background-color: #0A775F;
+border: none;
+border-radius: 30px;
+}
+
+.rectangle{
+   width: 450px;
+   height: 500px;
+   transform: translateX(350px);
+}
+.coffee-img{
+ margin-top: 156px;
+}
+
+.rotate{
+   transform: translate(-200px 100px);
+   z-index: 1;
+}
+.h2{
+color: #000;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+text-align: center;
+margin: 50px;
+}
+.coffe{
+   display: flex;
+   align-items: center;
+   margin: 50px;
+   gap: 150px;
+   margin-top: 60px;
+}
+.danche-text h2{
+color: #333;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: all-small-caps;
+margin: 40px;
+}
+.danche-text p{
+color: #333;
+max-width: 453px;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+.danche-img img{
+   transition: 2s;
+   animation: ani 3s infinite;
+}
+@keyframes ani{
+   0%{
+   transform:scale(1.5)
+   }
+   100%{
+   transform:scale(1)
+   }
+}
+
+
+
+
+
+
+
+
+
